@@ -142,7 +142,7 @@ You get another endpoint now:
 open in browser `https://epic-almeida5-default.4g4n4g.on-rio.io:9443`
 
 
-### check revisions
+### check revisions
 
 ```bash
 rio revision
