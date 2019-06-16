@@ -27,7 +27,6 @@ k cluster-info
 will give something like:
 
 ```
-kubectl cluster-info
 Kubernetes master is running at https://localhost:6550
 CoreDNS is running at https://localhost:6550/api/v1/namespaces/kube-system/services/kube-dns/proxy
 
@@ -124,7 +123,7 @@ Hi there, I'm running in Rio
 rio run ibuildthecloud/demo:blue
 ```
 
-### check green endpoint
+### check blue endpoint
 
 ```bash
 rio ps
