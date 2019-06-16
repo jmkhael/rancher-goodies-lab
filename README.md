@@ -147,7 +147,7 @@ open in browser `https://epic-almeida5-default.4g4n4g.on-rio.io:9443`
 ```bash
 rio revision
 ```
-
+will yield our two endpoints:
 
 ```bash
 Name                             IMAGE                                                                  CREATED          SCALE     ENDPOINT                                                       WEIGHT    DETAIL
@@ -156,7 +156,6 @@ default/admiring-northcutt7:v0   default/admiring-northcutt7:786b366d5d44de6b547
 ```
 
 ### stage green version
-
 
 Let's say we want to update the image now, to be served by green cows:
 
