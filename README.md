@@ -139,7 +139,8 @@ default/admiring-northcutt7   2 hours ago      https://admiring-northcutt7-defau
 
 You get another endpoint now:
 
-open in browser https://epic-almeida5-default.4g4n4g.on-rio.io:9443
+open in browser `https://epic-almeida5-default.4g4n4g.on-rio.io:9443`
+
 
 ### check revisions
 
