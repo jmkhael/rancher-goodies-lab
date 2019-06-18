@@ -32,7 +32,6 @@ Kubernetes master is running at https://localhost:6550
 CoreDNS is running at https://localhost:6550/api/v1/namespaces/kube-system/services/kube-dns/proxy
 
 To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
-```
 
 ```bash
 k get nodes
