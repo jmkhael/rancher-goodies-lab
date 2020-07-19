@@ -11,27 +11,16 @@ curl -s https://raw.githubusercontent.com/rancher/k3d/master/install.sh | bash
 ## Create cluster (2 workers)
 
 ```bash
-k3d create --api-port 6550 --publish 8081:80 --workers 2
+k3d cluster create -a 3
 ```
 
-## Configure kubctl and alias it
-
-```bash
-export KUBECONFIG="$(k3d get-kubeconfig --name='k3s-default')"
-alias k=kubectl
-```
 
 ## Check cluster details and nodes
 
 ```bash
 
-will give something like:
-
+alias k=kubectl
 ```
-Kubernetes master is running at https://localhost:6550
-CoreDNS is running at https://localhost:6550/api/v1/namespaces/kube-system/services/kube-dns/proxy
-
-To further debug and diagnose cluster problems, use 'kubectl cluster-info dump'.
 
 ```bash
 k get nodes
